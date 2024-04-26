@@ -1,6 +1,5 @@
 import pytest 
 from selenium import webdriver 
-from selenium.webdriver.common.by import By 
 from selenium.webdriver.chrome.options import Options 
 from selenium.webdriver.firefox.options import Options as OptionsFirefox
 
@@ -35,3 +34,7 @@ def browser(request):
     yield browser 
     print("\nquit browser..") 
     browser.quit()
+
+
+
+    
